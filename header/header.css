@@ -11,10 +11,14 @@ a {
 
 /* Header */
 .header {
-    background-color: #24a8d5;
+    background-color: transparent;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    transition: background-color 0.3s ease;
+}
+.header.scrolled {
+    background-color: #24a8d5;
 }
 
 .header-logo {
@@ -35,7 +39,8 @@ a {
     list-style-type: none;
 }
 .nav-link:hover {
-    background-color: #0481b1;
+    /* background-color: #0481b1; */
+    opacity: 0.6;
 }
 
 .nav-link a {
