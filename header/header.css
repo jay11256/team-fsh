@@ -18,7 +18,7 @@ a {
     transition: background-color 0.3s ease;
 }
 .header.scrolled {
-    background-color: #24a8d5;
+    background-color: #025080;
 }
 
 .header-logo {
@@ -37,6 +37,7 @@ a {
 .nav-link {
     padding: 20px;
     list-style-type: none;
+    transition: opacity 0.3s ease;
 }
 .nav-link:hover {
     /* background-color: #0481b1; */
