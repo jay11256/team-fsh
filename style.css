@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #0481b1;
+    background-color: #025080;
 }
 
 a {
@@ -63,6 +63,10 @@ a {
 }
 
 /* Main content */
+.main-content {
+    background-color: #0481b1;
+}
+
 .mission , .question {
     margin: 30px 20%;
     background-color: #24a8d5;
