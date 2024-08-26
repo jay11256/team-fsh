@@ -1,0 +1,14 @@
+* {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Footer */
+.footer {
+    background-color: #025080;
+    padding: 50px 30%;
+    display: flex;
+    justify-content: space-between;
+}
