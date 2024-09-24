@@ -1,4 +1,8 @@
 /* Global elements */
+html {
+    font-size: 1.5em;
+}
+
 * {
     margin: 0px;
     border: 0px;
@@ -15,12 +19,12 @@ a {
 }
 
 .heading {
-    font-size: 72px;
+    font-size: 3rem;
     color: white;
 }
 
 .paragraph {
-    font-size: 24px;
+    font-size: 1rem;
     color: white;
 }
 
@@ -53,13 +57,13 @@ a {
 
 .team-name {
     color: white;
-    font-size: 180px;
+    font-size: 7.5rem;
     font-weight: bold;
 }
 
 .team-cohort {
     color: white;
-    font-size: 32px;
+    font-size: 1.5rem;
 }
 
 /* Main content */
@@ -68,7 +72,7 @@ a {
 }
 
 .section {
-    margin: 30px 20%;
+    margin: 30px 15%;
     background-color: #24a8d5;
     border-radius: 25px;
     padding: 20px;
