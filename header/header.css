@@ -24,7 +24,7 @@ a {
 .header-logo {
     padding: 10px;
     color: white;
-    font-size: 36px;
+    font-size: 2.5em;
     font-weight: bold;
 }
 
@@ -46,5 +46,5 @@ a {
 
 .nav-link a {
     color: white;
-    font-size: 24px;
+    font-size: 1.5em;
 }
