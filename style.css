@@ -49,9 +49,9 @@ a {
     flex-direction: column;
 }
 
+/* Main graphic */
 .team-intro {
     width: 100%;
-    height: 100vh;
     background-image: url("images/cichlid-stare.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -61,6 +61,23 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+/* Main graphic: home page */
+.team-intro.index {
+    height: 100vh;
+    background-image: url("images/cichlid-stare.png");
+}
+
+/* Main graphic: meet the team page */
+.team-intro.team {
+    height: 50vh;
+}
+
+/* Main graphic: timeline page */
+.team-intro.timeline {
+    height: 50vh;
+    background-image: url("images/yellow-cichlid.png");
 }
 
 .team-name {
@@ -90,4 +107,38 @@ a {
 
 .questions {
     margin: 0px 0px 0px 25px;
+}
+
+/*  */
+/* Team Page */
+/*  */
+
+.profile-wrapper {
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.profile {
+    max-width: 300px;
+    max-height: 400px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile > .pic {
+    width: 250px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #025080;
+}
+
+.profile > .paragraph {
+    font-size: 1.5em;
+    text-align: center;
 }
