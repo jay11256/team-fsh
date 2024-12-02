@@ -72,6 +72,7 @@ a {
 /* Main graphic: meet the team page */
 .team-intro.team {
     height: 50vh;
+    background-image: url("images/team-photo.png");
 }
 
 /* Main graphic: timeline page */
